@@ -1,2 +1,29 @@
+/*Color Palette*/
+.color-1 {
+    background: #D185D6 ;
+}
 
+.color-2 {
+    background: #71D094;
+}
 
+.color-3 {
+    background: #66CACC;
+}
+
+/*Textures and Patterns*/
+
+.pattern-1 {
+    background: url("../img/wave-texture.jpg");
+    background-size: cover;
+}
+
+.pattern-2 {
+    background: url("../img/feather-texture.jpg");
+    background-size: cover;
+}
+
+.pattern-3 {
+    background: url("../img/geo-texture.jpg");
+    background-size: cover;
+}
