@@ -12,7 +12,6 @@
 }
 
 /*Textures and Patterns*/
-
 .pattern-1 {
     background: url("../img/wave-texture.jpg");
     background-size: cover;
@@ -26,4 +25,70 @@
 .pattern-3 {
     background: url("../img/geo-texture.jpg");
     background-size: cover;
+}
+
+/*Images*/
+.imagery-1 img {
+    width: 300px;
+    height: 200px;
+}
+
+.imagery-2 img {
+    width: 300px;
+    height: 200px;
+}
+
+.imagery-3 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*Icons*/
+
+.icon-1 img{
+    height: 100%;
+}
+
+.icon-2 img{
+    height: 100%;
+}
+
+.icon-3 img{
+    height: 100%;
+}
+
+
+/*Navigation*/
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a:link {
+    background: #D185D6;
+    border-bottom: 2px solid #71D094;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 5px 20px;
+    text-decoration: none;
+}
+
+
+nav a:visited {
+    color: white;
+}
+
+
+nav a:focus {
+    
+}
+
+nav a:active {
+    
+}
+
+nav a:hover {
+    background: #66CACC;
+    color: #D185D6;
 }
