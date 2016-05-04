@@ -11,3 +11,24 @@ body{
 header img {
     width: 100px;
 }
+
+
+/* main nav */
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+  background: pink;
+  text-decoration: none;
+  padding: .5em;
+  transition: all .75s;
+}
+
+nav a:hover,
+nav a:active {
+  background: violet;
+  margin-left: .5em;
+}
