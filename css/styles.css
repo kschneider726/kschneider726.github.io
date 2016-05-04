@@ -1,1 +1,13 @@
 /* To live would be an awfully big adventure */
+
+
+/* global or sitewide */
+body{
+    background: url("../img/bg-tile.jpg");
+}
+
+
+/* header */
+header img {
+    width: 100px;
+}
