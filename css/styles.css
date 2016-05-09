@@ -2,16 +2,19 @@
 
 
 /* global or sitewide */
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+
 body{
     background: url("../img/bg-tile.jpg");
 }
+
+
 
 
 /* header */
 header img {
     width: 100px;
 }
-
 
 /* main nav */
 nav li {
@@ -31,4 +34,15 @@ nav a:hover,
 nav a:active {
   background: violet;
   margin-left: .5em;
+}
+
+/* quote */
+blockquote {
+    color: whitesmoke;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 
+        1px 1px 0 #71D094,
+        2px 2px 0 #D185D6;
 }
