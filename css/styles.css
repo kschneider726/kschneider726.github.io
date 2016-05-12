@@ -2,19 +2,43 @@
 
 
 /* global or sitewide */
-@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 body{
-    background: url("../img/bg_geometric.jpg");
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    background: url("../img/bg-arrows.jpg");
+    background-repeat: round;
+    opacity: .3;
 }
 
-
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
 
 
 /* header */
 header img {
     width: 100px;
+    opacity: 1;
 }
+
+#wrap {
+  width: 87%;
+  margin: 1em auto;
+  padding: .5em 3%;
+  background-color: #D185D6;
+  border-radius: 3%;
+  position: relative;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+}
+
 
 /* main nav */
 nav li {
@@ -24,7 +48,7 @@ nav li {
 
 nav a:link,
 nav a:visited {
-  background: pink;
+  background: #71D094;
   text-decoration: none;
   padding: .5em;
   transition: all .75s;
@@ -32,7 +56,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-  background: violet;
+  background: #66CACC;
   margin-left: .5em;
 }
 
