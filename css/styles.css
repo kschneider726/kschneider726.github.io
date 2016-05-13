@@ -8,7 +8,7 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-    font-size: 1em;
+    font-size: .8em;
     color: black;
     line-height: 1.6;
     background: url("../img/bg-arrows.jpg");
@@ -16,16 +16,17 @@ body{
     opacity: .95;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: .5em;
-}
-
 
 /* header */
 img {
     border-radius: 3%;
     margin-top: .75em;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2em;
+  margin-bottom: .5em;
 }
 
 h2 {
@@ -50,11 +51,6 @@ h3 {
   position: relative;
 }
 
-.inner {
-  position: relative;
-  z-index: 2;
-}
-
 
 /* main nav */
 nav li {
@@ -62,9 +58,13 @@ nav li {
   display: inline-block;
 }
 
+nav a {
+    border-radius: 3%;
+}
+
 nav a:link,
 nav a:visited {
-  background: #D185D6;
+  background: #66CACC;
   text-decoration: none;
   padding: .75em;
   transition: all .75s;
@@ -72,7 +72,6 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-  background: #66CACC;
   margin-left: .5em;
   transition: all .75s;
 }
