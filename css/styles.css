@@ -24,9 +24,10 @@ img {
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 2em;
-  margin-bottom: .5em;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    margin-bottom: .5em;
+    text-align: center;
 }
 
 h2 {
@@ -35,11 +36,17 @@ h2 {
     font-family: 'Libre Baskerville', serif;
 }
 
-h3 {
+section h3 {
     color: black;
     font-size: 1em;
     font-family: 'Libre Baskerville', serif;
+    margin-top: 2em;
     text-align: center;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #wrap {
@@ -81,5 +88,6 @@ blockquote {
     color: whitesmoke;
     font-family: 'Libre Baskerville', serif;
     font-size: 2em;
-    text-align: center;
+     text-align: center;
+     text-shadow: 
 }
