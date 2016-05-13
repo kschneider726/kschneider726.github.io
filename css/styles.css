@@ -3,14 +3,17 @@
 
 /* global or sitewide */
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
 
 body{
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
+    color: black;
     line-height: 1.6;
     background: url("../img/bg-arrows.jpg");
     background-repeat: round;
-    opacity: .3;
+    opacity: .95;
 }
 
 h1 {
@@ -20,16 +23,29 @@ h1 {
 
 
 /* header */
-header img {
-    width: 100px;
-    opacity: 1;
+img {
+    border-radius: 3%;
+    margin-top: .75em;
+}
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+    color: black;
+    font-size: 1em;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
 }
 
 #wrap {
   width: 87%;
   margin: 1em auto;
   padding: .5em 3%;
-  background-color: #D185D6;
+  background-color: #66CACC;
   border-radius: 3%;
   position: relative;
 }
@@ -48,9 +64,9 @@ nav li {
 
 nav a:link,
 nav a:visited {
-  background: #71D094;
+  background: #D185D6;
   text-decoration: none;
-  padding: .5em;
+  padding: .75em;
   transition: all .75s;
 }
 
@@ -58,15 +74,13 @@ nav a:hover,
 nav a:active {
   background: #66CACC;
   margin-left: .5em;
+  transition: all .75s;
 }
 
 /* quote */
 blockquote {
     color: whitesmoke;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2em;
     text-align: center;
-    text-shadow: 
-        1px 1px 0 #71D094,
-        2px 2px 0 #D185D6;
 }
