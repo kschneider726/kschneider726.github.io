@@ -69,9 +69,26 @@ h4.skills{
   margin: 1em auto;
   padding: .5em 3%;
   background-color: #71D094;
-  border-radius: 5%;
+  border-radius: ;
   position: center;
   opacity: 95%;
+}
+
+figcaption {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+figcaption.title {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+    line-height: 1.6;
+    padding-top: .5em;
+    text-align: center;
 }
 
 
