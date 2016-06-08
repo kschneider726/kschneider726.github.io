@@ -54,7 +54,7 @@ h4 {
   margin: 1em auto;
   padding: .5em 3%;
   background-color: #66CACC;
-  border-radius: 3%;
+  border-radius: 5%;
   position: relative;
 }
 
@@ -64,12 +64,15 @@ h4.skills{
 
 
 /* Portfolio */
-
-
-
-
-
-
+#p-wrap {
+  width: 87%;
+  margin: 1em auto;
+  padding: .5em 3%;
+  background-color: #71D094;
+  border-radius: 5%;
+  position: center;
+  opacity: 95%;
+}
 
 
 /* RDW Nav */
