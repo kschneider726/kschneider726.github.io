@@ -50,18 +50,22 @@ h4 {
 }
 
 #wrap {
-  width: 87%;
-  margin: 1em auto;
-  padding: .5em 3%;
-  background-color: #66CACC;
-  border-radius: 5%;
-  position: relative;
+    width: 87%;
+    margin: 1em auto;
+    padding: .5em 3%;
+    background-color: #66CACC;
+    border-radius: 5%;
+    position: relative;
 }
 
 h4.skills{
     text-align: center;
 }
 
+dt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+}
 
 /* Portfolio */
 #p-wrap {
@@ -69,7 +73,7 @@ h4.skills{
   margin: 1em auto;
   padding: .5em 3%;
   background-color: #71D094;
-  border-radius: ;
+  border-radius: 1%;
   position: center;
   opacity: 95%;
 }
@@ -89,6 +93,33 @@ figcaption.title {
     line-height: 1.6;
     padding-top: .5em;
     text-align: center;
+}
+
+/* Contact Page */
+#c-wrap {
+  width: 87%;
+  margin: 1em auto;
+  padding: .5em 3%;
+  background-color: #D185D6;
+  border-radius: 1%;
+  position: center;
+  opacity: 95%;
+}
+
+#legs {
+  border-radius: 4%;
+  margin-top: .75em;
+  margin-bottom: 1.5em;
+}
+
+dt.location {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+}
+
+h2.info {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
 }
 
 
