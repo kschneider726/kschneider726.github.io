@@ -1,7 +1,7 @@
 /* To live would be an awfully big adventure */
 
 
-/* global or sitewide */
+/* Global or Sitewide */
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 
@@ -17,7 +17,7 @@ body{
 }
 
 
-/* header */
+/* Header */
 img {
     border-radius: 3%;
     margin-top: .75em;
@@ -58,8 +58,59 @@ h4 {
   position: relative;
 }
 
+/* RDW Nav */
 
-/* main nav */
+/* Mobile */
+@media screen and (min-width: 25em)  {
+  
+  body {
+    background: ;
+    transition: background .5s;
+  }
+  
+  .tablet, .desktop {
+    display: none;
+  }
+  
+}
+
+/* Tablet */
+@media screen and (min-width: 37.5em)  {
+  
+  body {
+    background: ;
+    transition: background .5s;
+  }
+  
+    .mobile, .desktop {
+    display: none;
+  }
+  
+  .tablet {
+    display: block;
+  }
+  
+}
+
+/* Desktop */
+@media screen and (min-width: 62.5em) {
+  
+  body {
+    background: ;
+    transition: background .5s;
+  }
+  
+  .mobile, .tablet {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+}
+
+/* Main Nav */
 nav li {
   list-style: none;
   display: inline-block;
@@ -83,7 +134,7 @@ nav a:active {
   transition: all .75s;
 }
 
-/* quote */
+/* Quote */
 blockquote {
     color: whitesmoke;
     font-family: 'Libre Baskerville', serif;
