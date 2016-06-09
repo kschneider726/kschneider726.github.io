@@ -95,6 +95,17 @@ figcaption.title {
     text-align: center;
 }
 
+figure figcaption:hover {
+    animation: 3s 3s ease-in-out;
+    margin: .5em auto;
+}
+
+figure figcaption.title:hover {
+    animation: 3s 3s ease-in-out;
+    margin: .5em auto;
+}
+
+
 /* Contact Page */
 #c-wrap {
   width: 87%;
@@ -177,8 +188,9 @@ h2.info {
 
 /* Main Nav */
 nav li {
-  list-style: none;
-  display: inline-block;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: .5em;
 }
 
 nav a {
