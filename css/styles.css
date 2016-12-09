@@ -11,8 +11,6 @@ body{
     font-size: .8em;
     color: black;
     line-height: 1.6;
-    background: url("../img/arrows-bg.jpg");
-    background-repeat: round;
     opacity: 1;
 }
 
